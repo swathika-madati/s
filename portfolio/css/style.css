@@ -1,0 +1,30 @@
+.bannerBgImage{
+    height: 90vh;
+    background: url("/images/bannerImage.jpg");
+    background-size: cover;
+    position: static;
+}
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    transform: translate(-60%, -40%);
+    color: purple;
+}
+.bannerTitle{
+    font-size: 4rem;
+}
+.bannerDesc{
+    font: 2rem;
+}
+.img-fluid:hover{
+    border:2px solid pink;
+}
+.card-img-top{
+    height: 50vh;
+}
+.card:hover{
+    background-color: palevioletred ;
+    border: 2px solid yellowgreen
+}
